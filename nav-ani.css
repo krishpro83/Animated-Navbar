@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    word-spacing: 20px;
+    
+    
+}
+
+nav a{
+    position: relative;
+    font-size: xx-large;
+    font-weight: 500;
+    padding: 10px 40px;
+    transition: 0.7s;
+    border-bottom: 1px solid red;
+    color: rgb(121, 97, 97);
+    border: 2px solid aqua;
+    border-radius: 15px;
+    color: white;
+    
+}
+    
+
+nav a:hover{
+    color: aqua;
+}
+
+nav a:active{
+    background-color: aqua;
+    
+}
+
+
+
